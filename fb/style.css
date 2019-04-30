@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, input, label{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: #3b5998;
+  height: 80px;
+}
+
+header .container {
+  width: 80%;
+  margin: auto;
+}
+
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.container img {
+  position: absolute;
+  left: 0;
+  line-height: 100px;
+  margin: 8px 0 10px 35px;
+  width: 212px;
+}
+.container .navright {
+    display: flex;
+    margin-top: 13px;
+    height: 64px;
+    margin-right: 25px;
+}
+.container .form-nav {
+    color:white;
+    margin-right: 30px;
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.form-nav input[type=password], input[type=email] {
+    width: 142px;
+    border:none;
+    padding: 1px;
+    margin-top:4px;
+}
+.form-nav label{
+    font-size: 12px;
+}
+.parenta {
+    position: relative;
+    height: 50px;;
+}
+.form-nav .nava {
+    position: absolute;
+    bottom: 0;
+    left: 171px;
+    color: #9cb4d8;
+    font-size: 13px;
+    text-decoration: none;
+}
+.form-nav .nava:hover {
+    text-decoration: underline;
+}
+
+.form-nav .navbutton {
+    background-color: #4267b2;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 3px;
+}
+.form-nav .navbutton:hover {
+    background-color: #3b5998;
+}
+/* section body */
+.signup{
+    background-color: #edf0f5;
+    height: 95vh;
+}
+.signup .container{
+    width: 70%;
+    margin: auto;
+}
+.signup .row {
+    display: flex;
+}
+.signup .leftside {
+    width:600px;
+    display: inline;
+    vertical-align: top;
+    padding: 42px 0 24px;
+    margin-right: 15px;
+}
+.signup .leftside h2 {
+   
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 59px;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 518px;
+}
+.signup .leftside .comment{
+    padding-bottom: 70px;
+   position: relative;
+   display: flex;
+}
+
+.signup .leftside img{
+    margin-top: -30px;
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    margin-left: -7px;
+}
+
+.signup .leftside p{
+    display: inline;
+    margin-left: 70px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.signup .rightside {
+    width: 500px;
+    display: block;
+}
+.signup .rightside h2 {
+    margin-bottom: 7px;
+    padding-top: 31px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.signup .rightside p{
+    margin-bottom: 29px;
+    font-size: 1.2em;
+
+}
+.form-group {
+    margin: 15px;
+}
+.form-group input {
+    padding: 5px 20px; 
+    width: 400px;
+    border-radius: 5px;
+    outline: none;
+    /* border: none; */
+    font-size: 18px;
+    font-weight: 100;
+    border: 0.5px solid #6785b9;
+}
+.form-group .gender {
+    display: flex;
+}
+.form-group input[type="radio" i] {
+    width: 30px;
+}
+.form-group input[type="date"] {
+    width:190px;
+    display: inline;
+}
+
+.minia {
+    display: flex;
+    justify-content: space-between;
+}
+ .form-group a {
+   
+    font-size: 0.7em;
+    text-decoration: none;
+}
+.rightside .minip {
+    font-size: 0.7em;
+    width: 316px;
+    margin-left: 20px;
+}
+.signbutton {
+    margin-top: -10px;
+    padding: 10px 60px;
+    background-color: #67ae55;
+      border: none;
+    border-radius: 5px;
+    font-size: 1.4em;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.signbutton:hover{
+    background-color: #77b368;
+}
